@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42F3442E-7E26-4080-91A1-CA0FADE3B72B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IncidentReportResourceCompressor</RootNamespace>
+    <AssemblyName>IncidentReportResourceCompressor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EcmaScript.NET">
+      <HintPath>packages\EcmaScript.Net.1.0.1.0\lib\net20\EcmaScript.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>packages\YUICompressor.NET.2.2.0.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JSFile\dhtmlgoodies_calendar\CVS\Entries" />
+    <None Include="JSFile\dhtmlgoodies_calendar\CVS\Entries.Extra" />
+    <None Include="JSFile\dhtmlgoodies_calendar\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\dhtmlgoodies_calendar\CVS\Entries.Old" />
+    <None Include="JSFile\dhtmlgoodies_calendar\CVS\Repository" />
+    <None Include="JSFile\dhtmlgoodies_calendar\CVS\Root" />
+    <None Include="JSFile\facebox\CVS\Entries" />
+    <None Include="JSFile\facebox\CVS\Entries.Extra" />
+    <None Include="JSFile\facebox\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\facebox\CVS\Entries.Old" />
+    <None Include="JSFile\facebox\CVS\Repository" />
+    <None Include="JSFile\facebox\CVS\Root" />
+    <None Include="JSFile\facefiles\CVS\Entries" />
+    <None Include="JSFile\facefiles\CVS\Entries.Extra" />
+    <None Include="JSFile\facefiles\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\facefiles\CVS\Entries.Old" />
+    <None Include="JSFile\facefiles\CVS\Repository" />
+    <None Include="JSFile\facefiles\CVS\Root" />
+    <None Include="JSFile\images\CVS\Entries" />
+    <None Include="JSFile\images\CVS\Entries.Extra" />
+    <None Include="JSFile\images\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\images\CVS\Entries.Old" />
+    <None Include="JSFile\images\CVS\Repository" />
+    <None Include="JSFile\images\CVS\Root" />
+    <None Include="JSFile\lightbox\css\CVS\Entries" />
+    <None Include="JSFile\lightbox\css\CVS\Entries.Extra" />
+    <None Include="JSFile\lightbox\css\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightbox\css\CVS\Entries.Old" />
+    <None Include="JSFile\lightbox\css\CVS\Repository" />
+    <None Include="JSFile\lightbox\css\CVS\Root" />
+    <None Include="JSFile\lightbox\CVS\Entries" />
+    <None Include="JSFile\lightbox\CVS\Entries.Extra" />
+    <None Include="JSFile\lightbox\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightbox\CVS\Entries.Log" />
+    <None Include="JSFile\lightbox\CVS\Entries.Old" />
+    <None Include="JSFile\lightbox\CVS\Repository" />
+    <None Include="JSFile\lightbox\CVS\Root" />
+    <None Include="JSFile\lightbox\images\CVS\Entries" />
+    <None Include="JSFile\lightbox\images\CVS\Entries.Extra" />
+    <None Include="JSFile\lightbox\images\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightbox\images\CVS\Entries.Old" />
+    <None Include="JSFile\lightbox\images\CVS\Repository" />
+    <None Include="JSFile\lightbox\images\CVS\Root" />
+    <None Include="JSFile\lightbox\js\CVS\Entries" />
+    <None Include="JSFile\lightbox\js\CVS\Entries.Extra" />
+    <None Include="JSFile\lightbox\js\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightbox\js\CVS\Entries.Old" />
+    <None Include="JSFile\lightbox\js\CVS\Repository" />
+    <None Include="JSFile\lightbox\js\CVS\Root" />
+    <None Include="JSFile\lightwindow\css\CVS\Entries" />
+    <None Include="JSFile\lightwindow\css\CVS\Entries.Extra" />
+    <None Include="JSFile\lightwindow\css\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightwindow\css\CVS\Entries.Old" />
+    <None Include="JSFile\lightwindow\css\CVS\Repository" />
+    <None Include="JSFile\lightwindow\css\CVS\Root" />
+    <None Include="JSFile\lightwindow\CVS\Entries" />
+    <None Include="JSFile\lightwindow\CVS\Entries.Extra" />
+    <None Include="JSFile\lightwindow\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightwindow\CVS\Entries.Log" />
+    <None Include="JSFile\lightwindow\CVS\Entries.Old" />
+    <None Include="JSFile\lightwindow\CVS\Repository" />
+    <None Include="JSFile\lightwindow\CVS\Root" />
+    <None Include="JSFile\lightwindow\images\CVS\Entries" />
+    <None Include="JSFile\lightwindow\images\CVS\Entries.Extra" />
+    <None Include="JSFile\lightwindow\images\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightwindow\images\CVS\Entries.Old" />
+    <None Include="JSFile\lightwindow\images\CVS\Repository" />
+    <None Include="JSFile\lightwindow\images\CVS\Root" />
+    <None Include="JSFile\lightwindow\javascript\CVS\Entries" />
+    <None Include="JSFile\lightwindow\javascript\CVS\Entries.Extra" />
+    <None Include="JSFile\lightwindow\javascript\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\lightwindow\javascript\CVS\Entries.Old" />
+    <None Include="JSFile\lightwindow\javascript\CVS\Repository" />
+    <None Include="JSFile\lightwindow\javascript\CVS\Root" />
+    <None Include="JSFile\mapper\CVS\Entries" />
+    <None Include="JSFile\mapper\CVS\Entries.Extra" />
+    <None Include="JSFile\mapper\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\mapper\CVS\Entries.Log" />
+    <None Include="JSFile\mapper\CVS\Entries.Old" />
+    <None Include="JSFile\mapper\CVS\Repository" />
+    <None Include="JSFile\mapper\CVS\Root" />
+    <None Include="JSFile\mapper\images\CVS\Entries" />
+    <None Include="JSFile\mapper\images\CVS\Entries.Extra" />
+    <None Include="JSFile\mapper\images\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\mapper\images\CVS\Entries.Log" />
+    <None Include="JSFile\mapper\images\CVS\Entries.Old" />
+    <None Include="JSFile\mapper\images\CVS\Repository" />
+    <None Include="JSFile\mapper\images\CVS\Root" />
+    <None Include="JSFile\mapper\images\example\CVS\Entries" />
+    <None Include="JSFile\mapper\images\example\CVS\Entries.Extra" />
+    <None Include="JSFile\mapper\images\example\CVS\Entries.Extra.Old" />
+    <None Include="JSFile\mapper\images\example\CVS\Entries.Old" />
+    <None Include="JSFile\mapper\images\example\CVS\Repository" />
+    <None Include="JSFile\mapper\images\example\CVS\Root" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="javascript\autosuggestForNameDashBoard.js" />
+    <Content Include="javascript\builder.js" />
+    <Content Include="javascript\controls.js" />
+    <Content Include="javascript\dragdrop.js" />
+    <Content Include="javascript\effects.js" />
+    <Content Include="javascript\json.js" />
+    <Content Include="javascript\ml.js" />
+    <Content Include="javascript\namesuggestionsDashBoard.js" />
+    <Content Include="javascript\prototype.js" />
+    <Content Include="javascript\prototype161.js" />
+    <Content Include="javascript\scriptaculous.js" />
+    <Content Include="javascript\slider.js" />
+    <Content Include="javascript\sound.js" />
+    <Content Include="javascript\unittest.js" />
+    <Content Include="JSFile\AC_RunActiveContent.js" />
+    <Content Include="JSFile\AddQuestions.js" />
+    <Content Include="JSFile\adobe_AC_OETags.js" />
+    <Content Include="JSFile\ajaxupload.3.5.js" />
+    <Content Include="JSFile\arrow.gif" />
+    <Content Include="JSFile\attachments.js" />
+    <Content Include="JSFile\autosave.js" />
+    <Content Include="JSFile\autosuggest.js" />
+    <Content Include="JSFile\autosuggestForDoc.js" />
+    <Content Include="JSFile\autosuggestForName.js" />
+    <Content Include="JSFile\blank.gif" />
+    <Content Include="JSFile\cross.gif" />
+    <Content Include="JSFile\dhtmlgoodies_calendar\dhtmlgoodies_calendar.css" />
+    <Content Include="JSFile\dhtmlgoodies_calendar\dhtmlgoodies_calendar.js" />
+    <Content Include="JSFile\dom-drag.js" />
+    <Content Include="JSFile\expressInstall.swf" />
+    <Content Include="JSFile\facebox\b.gif" />
+    <Content Include="JSFile\facebox\b.png" />
+    <Content Include="JSFile\facebox\bl.gif" />
+    <Content Include="JSFile\facebox\bl.png" />
+    <Content Include="JSFile\facebox\br.gif" />
+    <Content Include="JSFile\facebox\br.png" />
+    <Content Include="JSFile\facebox\closelabel.gif" />
+    <Content Include="JSFile\facebox\facebox.css" />
+    <Content Include="JSFile\facebox\facebox.js" />
+    <Content Include="JSFile\facebox\facebox_with_reload.js" />
+    <Content Include="JSFile\facebox\jquery-1.2.2.pack.js" />
+    <Content Include="JSFile\facebox\loading.gif" />
+    <Content Include="JSFile\facebox\README.txt" />
+    <Content Include="JSFile\facebox\tl.gif" />
+    <Content Include="JSFile\facebox\tl.png" />
+    <Content Include="JSFile\facebox\tr.gif" />
+    <Content Include="JSFile\facebox\tr.png" />
+    <Content Include="JSFile\facefiles\b.png" />
+    <Content Include="JSFile\facefiles\bl.png" />
+    <Content Include="JSFile\facefiles\br.png" />
+    <Content Include="JSFile\facefiles\closelabel.gif" />
+    <Content Include="JSFile\facefiles\facebox.css" />
+    <Content Include="JSFile\facefiles\facebox.js" />
+    <Content Include="JSFile\facefiles\jquery-1.2.2.pack.js" />
+    <Content Include="JSFile\facefiles\loading.gif" />
+    <Content Include="JSFile\facefiles\README.txt" />
+    <Content Include="JSFile\facefiles\tl.png" />
+    <Content Include="JSFile\facefiles\tr.png" />
+    <Content Include="JSFile\form.js" />
+    <Content Include="JSFile\form_InvestForm.js" />
+    <Content Include="JSFile\form_ReportIncident.js" />
+    <Content Include="JSFile\form_WorkcoverClaimDetailsForm.js" />
+    <Content Include="JSFile\form_WorkcoverClassifyForm.js" />
+    <Content Include="JSFile\GCappearance.js" />
+    <Content Include="JSFile\GurtCalendar.js" />
+    <Content Include="JSFile\hs.png" />
+    <Content Include="JSFile\hv.png" />
+    <Content Include="JSFile\iepngfix.htc" />
+    <Content Include="JSFile\images\close.gif" />
+    <Content Include="JSFile\images\close_over.gif" />
+    <Content Include="JSFile\images\down.gif" />
+    <Content Include="JSFile\images\down_over.gif" />
+    <Content Include="JSFile\images\down_time.gif" />
+    <Content Include="JSFile\images\down_time_over.gif" />
+    <Content Include="JSFile\images\left.gif" />
+    <Content Include="JSFile\images\left_over.gif" />
+    <Content Include="JSFile\images\right.gif" />
+    <Content Include="JSFile\images\right_over.gif" />
+    <Content Include="JSFile\InvestForm.js" />
+    <Content Include="JSFile\InvestFormReview.js" />
+    <Content Include="JSFile\irjs.js" />
+    <Content Include="JSFile\jscolor.js" />
+    <Content Include="JSFile\jsfind.js" />
+    <Content Include="JSFile\kraft_form_Classification.js" />
+    <Content Include="JSFile\lightbox\css\lightbox.css" />
+    <Content Include="JSFile\lightbox\images\blank.gif" />
+    <Content Include="JSFile\lightbox\images\bullet.gif" />
+    <Content Include="JSFile\lightbox\images\close.gif" />
+    <Content Include="JSFile\lightbox\images\closelabel.gif" />
+    <Content Include="JSFile\lightbox\images\download-icon.gif" />
+    <Content Include="JSFile\lightbox\images\image-1.jpg" />
+    <Content Include="JSFile\lightbox\images\loading.gif" />
+    <Content Include="JSFile\lightbox\images\next.gif" />
+    <Content Include="JSFile\lightbox\images\nextlabel.gif" />
+    <Content Include="JSFile\lightbox\images\prev.gif" />
+    <Content Include="JSFile\lightbox\images\prevlabel.gif" />
+    <Content Include="JSFile\lightbox\images\thumb-1.jpg" />
+    <Content Include="JSFile\lightbox\index.html" />
+    <Content Include="JSFile\lightbox\js\builder.js" />
+    <Content Include="JSFile\lightbox\js\effects.js" />
+    <Content Include="JSFile\lightbox\js\lightbox.js" />
+    <Content Include="JSFile\lightbox\js\prototype.js" />
+    <Content Include="JSFile\lightbox\js\scriptaculous.js" />
+    <Content Include="JSFile\lightwindow\css\default.css" />
+    <Content Include="JSFile\lightwindow\css\lightwindow.css" />
+    <Content Include="JSFile\lightwindow\images\ajax-loading.gif" />
+    <Content Include="JSFile\lightwindow\images\arrow-down.gif" />
+    <Content Include="JSFile\lightwindow\images\arrow-up.gif" />
+    <Content Include="JSFile\lightwindow\images\black-70.png" />
+    <Content Include="JSFile\lightwindow\images\black.png" />
+    <Content Include="JSFile\lightwindow\images\blank.gif" />
+    <Content Include="JSFile\lightwindow\images\nextlabel.gif" />
+    <Content Include="JSFile\lightwindow\images\pattern_148-70.png" />
+    <Content Include="JSFile\lightwindow\images\pattern_148.gif" />
+    <Content Include="JSFile\lightwindow\images\prevlabel.gif" />
+    <Content Include="JSFile\lightwindow\javascript\lightwindow-min.js" />
+    <Content Include="JSFile\lightwindow\javascript\lightwindow.js" />
+    <Content Include="JSFile\mapper\cvi_map_lib.js" />
+    <Content Include="JSFile\mapper\eu_map.svg" />
+    <Content Include="JSFile\mapper\example.html" />
+    <Content Include="JSFile\mapper\images\backgrnd.jpg" />
+    <Content Include="JSFile\mapper\images\eu.gif" />
+    <Content Include="JSFile\mapper\images\example\Basement.jpg" />
+    <Content Include="JSFile\mapper\images\example\Bavarian_Parliament_1.jpg" />
+    <Content Include="JSFile\mapper\images\example\Bavarian_Parliament_2.jpg" />
+    <Content Include="JSFile\mapper\images\example\bg_left.jpg" />
+    <Content Include="JSFile\mapper\images\example\bg_right.jpg" />
+    <Content Include="JSFile\mapper\images\example\bl_logo.gif" />
+    <Content Include="JSFile\mapper\images\example\Entrance_Hall_1.jpg" />
+    <Content Include="JSFile\mapper\images\example\Entrance_Hall_2.jpg" />
+    <Content Include="JSFile\mapper\images\example\First_Floor.jpg" />
+    <Content Include="JSFile\mapper\images\example\Meeting_Room.jpg" />
+    <Content Include="JSFile\mapper\images\example\Plenary_Hall.jpg" />
+    <Content Include="JSFile\mapper\images\example\Reading_Room.jpg" />
+    <Content Include="JSFile\mapper\images\example\Rocky_Hall_1.jpg" />
+    <Content Include="JSFile\mapper\images\example\Rocky_Hall_2.jpg" />
+    <Content Include="JSFile\mapper\images\example\Senate_Hall.jpg" />
+    <Content Include="JSFile\mapper\images\germany.jpg" />
+    <Content Include="JSFile\mapper\images\mapper.jpg" />
+    <Content Include="JSFile\mapper\images\usa.gif" />
+    <Content Include="JSFile\mapper\images\world.gif" />
+    <Content Include="JSFile\mapper\images\world.jpg" />
+    <Content Include="JSFile\mapper\index.html" />
+    <Content Include="JSFile\mapper\LICENSE.txt" />
+    <Content Include="JSFile\mapper\mapper.js" />
+    <Content Include="JSFile\mapper\maputil.js" />
+    <Content Include="JSFile\mapper\usa_map.svg" />
+    <Content Include="JSFile\mapper\world_map.svg" />
+    <Content Include="JSFile\mapper\wz_jsgraphics.js" />
+    <Content Include="JSFile\MultipleImage.js" />
+    <Content Include="JSFile\myMenu.js" />
+    <Content Include="JSFile\namesuggestions.js" />
+    <Content Include="JSFile\namesuggestionsDoc.js" />
+    <Content Include="JSFile\new_win.js" />
+    <Content Include="JSFile\overlay.js" />
+    <Content Include="JSFile\reportIncident.js" />
+    <Content Include="JSFile\ScrollingMessage.js" />
+    <Content Include="JSFile\swfobject.js" />
+    <Content Include="JSFile\tree.css" />
+    <Content Include="JSFile\tree.js" />
+    <Content Include="JSFile\treeMenuCode.js" />
+    <Content Include="JSFile\tree_cfg.js" />
+    <Content Include="JSFile\UploadDocuments.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
